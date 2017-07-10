@@ -25,7 +25,7 @@ SECRET_KEY = '_z&!l!ut@*4sx%g-*wc=kdb0mfj2628f(y&u61-!q7c724^z()'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['yosuphowyadoin13.pythonanywhere.com']
 
 
 # Application definition
@@ -138,7 +138,7 @@ AUTH_USER_MODEL = 'authorization.Account'
 CORS_ORIGIN_ALLOW_ALL = False
 
 CORS_ORIGIN_WHITELIST = (
-    'localhost:4200',
+    'yosuphowyadoin13.pythonanywhere.com',
 )
 
 REST_FRAMEWORK = {
