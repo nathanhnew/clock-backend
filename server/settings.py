@@ -138,7 +138,7 @@ AUTH_USER_MODEL = 'authorization.Account'
 CORS_ORIGIN_ALLOW_ALL = False
 
 CORS_ORIGIN_WHITELIST = (
-    'yosuphowyadoin13.pythonanywhere.com',
+    'yosuphowyadoin13.pythonanywhere.com'
 )
 
 REST_FRAMEWORK = {
