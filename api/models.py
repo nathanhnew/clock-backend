@@ -14,7 +14,7 @@ class AccountSettings(models.Model):
     theme = models.CharField(max_length=50, default='')
     alerts = models.BooleanField(default=False)
     fullDay = models.BooleanField(default=True)
-    metric = models.BooleanField(default=True)
+    metric = models.CharField(default='both', max_length=4)
 
     class Meta:
         verbose_name_plural = "settings"
